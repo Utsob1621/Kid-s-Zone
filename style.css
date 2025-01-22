@@ -1,40 +1,40 @@
 	:root {
-	  --color-yellow: #FEA301;
-	  --color-blue: #01ACFD;
-	  --color-cayan:#05D4DF;
-	  --color-vailet:#5D58EF;
+	--color-yellow: #FEA301;
+	--color-blue: #01ACFD;
+	--color-cayan:#05D4DF;
+	--color-vailet:#5D58EF;
 	}
 	*{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		font-size: 20px;
-		font-weight: normal;
-		font-family: "Quicksand", serif;
-	  font-optical-sizing: auto;
-	  border: none;
-	  outline: none;
-	  background: transparent;
-	  text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: "Quicksand", serif;
+	font-optical-sizing: auto;
+	border: none;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
 	}
 
 	.body-container{
-		max-width: 1400px;
-		width: 100%;
-		margin: 0 auto;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
 	}
 	/*Common style*/
 	.button{
-		color: white;
-		font-size: 20px;
-		font-weight: 600;
-		padding: 10px 30px;
-		border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 30px;
+	border-radius: 5px;
 	}
 	.button:hover{
-		 opacity: 0.7; 
-	    cursor: pointer;
-	    transform: scale(0.95);
+	 opacity: 0.7; 
+	  cursor: pointer;
+	  transform: scale(0.95);
 	}
 
 
@@ -42,81 +42,188 @@
 
 	/*Nav bar and banner style start hare*/
 	header{
-		background: #f7f7f7;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
+	background: #f7f7f7;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	}
 	.nav-bar{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
 	}
 	.nav-bar button{
-		background: var(--color-yellow);
+	background: var(--color-yellow);
 	}
 
 	.logo{
-		display: flex;
-		align-items: center;
-		gap: 5px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
 	}
 	.logo h1{
-		font-size: 32px;
-		font-weight: 700;
-		color: var(--color-yellow);
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--color-yellow);
 	}
 	.nav-link{
-		display: flex;
-		align-items: center;
-		gap: 32px;
+	display: flex;
+	align-items: center;
+	gap: 32px;
 	}
 	.nav-link a{
-		font-size: 20px;
-		font-weight: 500;
+	font-size: 20px;
+	font-weight: 500;
 	}
 
 	.nav-link a:hover{
-		border: 1px solid var(--color-yellow);
-		padding: 5px  12px;
-		border-radius: 8px;
-		cursor: pointer;
+	border: 1px solid var(--color-yellow);
+	padding: 5px  12px;
+	border-radius: 8px;
+	cursor: pointer;
 	}
 
 	.nav-link a:nth-child(1){
-		color: var(--color-yellow);
+	color: var(--color-yellow);
 	}
 	.nav-link a:nth-child(2){
-		color: var(--color-blue);
+	color: var(--color-blue);
 	}
 	.nav-link a:nth-child(3){
-		color: var(--color-cayan);
+	color: var(--color-cayan);
 	}
 	.nav-link a:nth-child(4){
-		color: var(--color-vailet);
+	color: var(--color-vailet);
 	}
 
 	.banner-container{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
 	}
 	.banner-title span{
-		font-size: 56px;
-		font-weight: 700;
-		line-height: 65px;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 65px;
 	}
 	.banner-title span:nth-child(1){
-		color: var(--color-yellow);
+	color: var(--color-yellow);
 	}
 	.banner-title span:nth-child(4){
-		color: var(--color-blue);
+	color: var(--color-blue);
 	}
 	.banner-container p{
-		margin: 24px 0;
+	margin: 24px 0;
 	}
 	.banner-container button{
-		background: black;
+	background: black;
 	}
+
+	/*	curriculum style*/
+.curriculum-section{
+	background: url("/assets/bg.png");
+	padding: 60px 0;
+}
+
+	.curriculum h1{
+	font-size: 46px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 80px;
+	}
+	.curriculum-card-container{
+	display: flex;
+	gap: 32px;
+	}
+
+	.curriculum-card{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 18.864px;
+	text-align: center;
+	padding: 50px 40px;
+	}
+	.curriculum-card-1{
+	border: 0.943px solid #DEF5FF;
+	background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+	box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+	}
+	.curriculum-card-2{
+	border: 0.943px solid #FFF4DC;
+	background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+	box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+	}
+	.curriculum-card-3{
+	border: 0.943px solid #F2E8FF;
+	background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+	box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+	}
+
+	.curriculum-card h3{
+	color: #202020;
+	text-align: center;
+	font-size: 24.523px;
+	font-weight: 700;
+	margin: 32px 0;
+
+	}
+	.curriculum-card p{
+	color: #808080;
+	text-align: center;
+	font-size: 15.091px;
+	font-style: normal;
+	font-weight: 500;
+
+	}
+	.curriculum-btn-1,
+	.curriculum-btn-2,
+	.curriculum-btn-3{
+	font-size: 15.091px;
+	font-weight: 700;
+	margin-top: 38px;
+	display: inline-block;
+
+	}
+	.curriculum-btn-1{
+	color: var(--color-cayan);
+
+
+	}
+	.curriculum-btn-2{
+	color: var(--color-yellow);
+
+	}
+	.curriculum-btn-3{
+	color: var(--color-vailet);
+
+	}
+
+.arror-button{
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: var(--color-yellow);
+}
+
+.arror-button img{
+width: 50%;
+}
+.arror-button-continer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.arror-button-continer div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin-top: 80px;
+}
