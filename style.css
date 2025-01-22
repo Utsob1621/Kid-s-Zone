@@ -1,0 +1,40 @@
+:root {
+  --color-yellow: #FEA301;
+  --color-blue: #01ACFD;
+  --color-cayan:#05D4DF;
+  --color-vailet:#5D58EF;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+}
+
+body{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*Nav bar style start hare*/
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.logo h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--color-yellow);
+}
