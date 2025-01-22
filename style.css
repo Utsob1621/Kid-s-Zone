@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-body{
+.body-container{
 	max-width: 1400px;
 	width: 100%;
 	margin: 0 auto;
@@ -26,10 +26,17 @@ body{
 
 
 /*Nav bar style start hare*/
+header{
+	background: #f7f7f7;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 .nav-bar{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 20px 0;
 }
 
 .logo{
@@ -45,11 +52,18 @@ body{
 .nav-link{
 	display: flex;
 	align-items: center;
-	gap: 16px;
+	gap: 32px;
 }
 .nav-link a{
 	font-size: 20px;
 	font-weight: 500;
+}
+
+.nav-link a:hover{
+	border: 1px solid var(--color-yellow);
+	padding: 5px  12px;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
 .nav-link a:nth-child(1){
@@ -70,5 +84,11 @@ body{
 	font-weight: 600;
 	background-color: var(--color-yellow);
 	padding: 10px 30px;
-	border-radius: 12px;
+	border-radius: 5px;
+}
+.nav-button:hover{
+	color: white;
+	background-color: #cb8200;
+	cursor: pointer;
+	scale: 1.1;
 }
