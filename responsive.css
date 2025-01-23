@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+	.body-container {
+		width: 100%;
+		padding: 0 16px;
+	}
+	header{
+		padding: 20px 0;
+	}
+	.nav-end p{
+		display: block;
+	}
+	.nav-bar button{
+		display: none;
+	}
+	.nav-link{
+		display: none;
+	}
+	.banner-container{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.banner-title span{
+		font-size: 32px;
+		line-height: normal;
+		text-align: center;
+	}
+	.banner-content{
+		text-align: center;
+	}
+	.banner-container p{
+		font-size: 14px
+	}
+	.bannar-image{
+		width: 100%;
+	}
+
+	.title{
+		font-size: 26px;
+	}
+	.curriculum-card-container{
+	flex-direction: column;
+}
+
+.arror-button-continer{
+	display: none;
+}
+.story-card-container> div:nth-child(2){
+	width: 100%;
+}
+.story-card div{
+	height: auto;
+}
+
+.story-card img{
+	object-fit: fill;
+}
+.story-card h3{
+font-size: 9.133px;
+font-weight: 700;
+line-height: 17.125px;
+
+}
+
+.big-card{
+	display: none;
+}
+
+.small-story-card-container{
+	gap: 12px;
+}
+.story-card{
+	width: 100%;
+	height: auto;
+}
+
+.float-button-small{
+	top: 47%;
+	font-size: 9.133px;
+}
+.footer-content{
+	grid-template-columns: repeat(1, 1fr);
+	gap: 32px;
+	align-items: start;
+}
+
+.footer-start > div > h1 {
+	line-height: normal;
+	font-size: 32px;
+
+}
+.footer-end{
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+
+
+}
+

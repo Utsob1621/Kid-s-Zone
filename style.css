@@ -56,11 +56,14 @@
 	}
 
 
-
+.marquee{
+	font-weight: 700;
+	color: var(--color-vailet);
+}
 
 	/*Nav bar and banner style start hare*/
 	header{
-		background: #f7f7f7;
+		background: #F7F7F7;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
@@ -69,12 +72,14 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 20px 0;
+		margin: 10px 0 20px 0;
 	}
 	.nav-bar button{
 		background: var(--color-yellow);
 	}
-
+	.nav-end p{
+		display: none;
+	}
 	.logo{
 		display: flex;
 		align-items: center;
@@ -397,7 +402,10 @@ footer{
 .footer-middle{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	gap: 32px;
+	width: 100%;
 }
 .footer-middle h3{
 color: #FFF;
@@ -408,7 +416,10 @@ font-weight: 700;
 .footer-end{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: end;
 	gap: 32px;
+	width: 100%;
 }
 .footer-end h3{
 	color: #FFF;
